@@ -1,0 +1,9 @@
+RAMAS:
+- header: Para desarrollar el encabezado de la página
+- footer: Para crear el pie de página
+- content: Para el contenido principal
+- styling: Para el diseño y estilos CSS
+
+ASIGNADO:
+- JAIME: header, footer
+- RUBEN: content, styling

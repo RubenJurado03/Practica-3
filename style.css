@@ -1,1 +1,65 @@
 /* CSS BRANCH */
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table, th, td, tr {
+    border: 1px solid black;
+    border-spacing: 5px;
+}
+
+h1, h3 {
+    font-style: italic;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+ol > li {
+    list-style: decimal-leading-zero;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ol > li:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+    list-style: none;
+}
+
+tr > td:hover {
+    transition: 0.2s;
+    transform: scale(0.9);
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+form > fieldset > legend {
+    font-weight: bolder;
+}
+
+form > fieldset > label {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+form > fieldset > input {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+form > fieldset > button {
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+form > fieldset > button:hover {
+    transition: 0.2s;
+    background-color: rgb(217, 217, 217);
+    font-weight: bold;
+}
